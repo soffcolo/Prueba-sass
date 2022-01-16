@@ -1,0 +1,27 @@
+:root {
+  --black: #191c22;
+}
+
+footer {
+  background-color: #191c22;
+  color: white;
+  width: 100%;
+  padding: 1em;
+  position: static;
+  /*mantener el footer abajo*/
+  bottom: 0;
+}
+
+@media (max-width: 877px) {
+  footer {
+    width: 100%;
+    height: 100px;
+    color: whitesmoke;
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    line-height: 20px;
+    padding: 0 100px;
+  }
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,58 @@
+html, body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  input {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  body {
+    background-color: #BBB;
+    font-family: Helvetica, sans-serif;
+    padding-bottom: 100px;
+  }
+  
+  h2, h3 {
+    margin: 0 0 .75em 0;
+  }
+  
+  .equal-height-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .first {
+    background-color: #F53141;
+    padding: 20px;
+    margin-top: 450px;
+    flex: 1;
+  }
+  
+  .second {
+    background-color: yellow;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 450px;
+  
+  }
+  
+  .second-a {
+    background-color: #fff;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .second-b {
+    background-color: #fff;
+    flex: 1;
+  }
+  
+  .imagen {
+    display: flex;
+    width: 400px;
+    height: 400px;
+  }
