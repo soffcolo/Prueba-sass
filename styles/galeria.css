@@ -19,7 +19,8 @@ img {
   background: #fff;
   padding: 15px;
   width: 100%;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
 
@@ -33,4 +34,5 @@ h1 {
 
 p {
   text-align: center;
-}/*# sourceMappingURL=galeria.css.map */
+}
+/*# sourceMappingURL=galeria.css.map */
